@@ -1,0 +1,35 @@
+body,
+html {
+background: url(../img/bg.jpg) 50% 0 repeat fixed;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+}
+#SolPanel {
+    background-image: url("../img/1.jpg");
+}
+#SagPanel {
+    background-image: url("../img/2.jpg");
+}
+#IhsanLoader {
+    background-image: url("../img/loader.gif");
+}
+/* #Arka_Nokta{background:url(../img/puruz.png);} */
+
+#Ihsan {
+    width: 800px;
+    height: 600px;
+    text-shadow: 2px 2px 20px #F00;
+    background: rgba(0, 0, 0, 0.31);
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    margin-left: -150px;
+    margin-top: -40px;
+    font-size: 35px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+}
